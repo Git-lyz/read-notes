@@ -31,11 +31,7 @@
 
 **覆盖equals**
 1. 不覆盖equals方法, 类的每个实例都和他自身相等
-2. 覆盖equals后, 他必须满足以下要求: 
-	1. 自反性: 他必须equals自己
-		2. 对称性: x.equals(y) y.equals(x)
-		3. 传递性: x.equals(y) y.equals(z) x.equals(z)
-		4. 一致性: 多次调用x.equals(y)都返回true
+2. 覆盖equals后, 他必须满足以下要求: 1). 自反性: 他必须equals自己 2). 对称性: x.equals(y) y.equals(x) 3). 传递性: x.equals(y) y.equals(z) x.equals(z) 4). 一致性: 多次调用x.equals(y)都返回true
 
 ## 第四章: 类和接口
 **可访问性最小化**
